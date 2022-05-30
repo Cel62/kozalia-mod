@@ -1,0 +1,16 @@
+[
+{
+  "modid": "kozalia",
+  "name": "Kozalia",
+  "description": "Mod who reproduced the Kozalia's server.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Cel"],
+  "credits": "Phunder, Cel and ZerduX are the owners and the creators of the Kozalia's server. All rights are reserved to them.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
