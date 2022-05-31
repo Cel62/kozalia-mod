@@ -1,0 +1,11 @@
+# Itemgroup
+itemGroup.kozalia=Kozalia
+
+# Blocks
+tile.nitrite_block.name=Bloc de Nitrite
+tile.artrite_block.name=Bloc d'Artrite
+tile.terralium_block.name=Bloc de Terralium
+tile.horium_block.name=Bloc d'Horium
+tile.kozalium_block.name=Bloc de Kozalium
+
+# Items
