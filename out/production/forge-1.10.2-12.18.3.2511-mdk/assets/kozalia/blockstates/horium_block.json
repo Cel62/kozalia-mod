@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "kozalia:horium_block" }
+    }
+}
