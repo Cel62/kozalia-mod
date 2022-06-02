@@ -18,7 +18,7 @@ public class KozaliaCreativeTabs {
     public static final CreativeTabs SKYFACTION = new CreativeTabs(CreativeTabs.getNextID(), "skyfaction") {
         @SideOnly(Side.CLIENT)
         public Item getTabIconItem() {
-            return null;
+            return Item.getItemFromBlock(ModBlocks.kozalium_block);
         }
     };
 

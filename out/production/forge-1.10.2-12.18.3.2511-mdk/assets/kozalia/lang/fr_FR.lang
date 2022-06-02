@@ -1,5 +1,6 @@
 # Itemgroup
 itemGroup.kozalia=Kozalia
+itemGroup.skyfaction=SkyFaction
 
 # Blocks
 tile.nitrite_block.name=Bloc de Nitrite
@@ -8,4 +9,19 @@ tile.terralium_block.name=Bloc de Terralium
 tile.horium_block.name=Bloc d'Horium
 tile.kozalium_block.name=Bloc de Kozalium
 
+tile.nitrite_ore.name=Minerai de Nitrite
+tile.artrite_ore.name=Minerai de Artrite
+tile.terralium_ore.name=Minerai de Terralium
+tile.horium_ore.name=Minerai de Horium
+tile.kozalium_ore.name=Minerai de Kozalium
+
+tile.cave_block.name=Bloc d'XRay
+tile.xray_ore.name=Minerai d'XRay
+
 # Items
+item.nitrite_fragment.name=Fragment de Nitrite
+item.artrite_fragment.name=Fragment de Artrite
+item.terralium_fragment.name=Fragment de Terralium
+item.horium_fragment.name=Fragment de Horium
+item.kozalium_fragment.name=Fragment de Kozalium
+item.xray_fragment.name=Fragment d'Xray

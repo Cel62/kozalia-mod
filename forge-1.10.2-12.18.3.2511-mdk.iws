@@ -1,17 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc361128-9de7-4cc0-ba68-0c063cd5eaa6" name="Changes" comment="Commit #1&#10;&#10;Modification de la Creative Tabs">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/blockstates/nitrite_block.json" afterDir="false" />
+    <list default="true" id="dc361128-9de7-4cc0-ba68-0c063cd5eaa6" name="Changes" comment="Commit #1 :&#10;I add the first main blocks of the mod : The Nitrite/Artrite/Terralium/Horium/Kozalium Blocks !&#10;And of course I changed the Creative Tab's logo for the Kozalium Block who is more appropriated (instead of the apple :joy:)">
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-06-01_21.04.24-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-05-31-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-01-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-01-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-01-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-01-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-01-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-02-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-02-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-02-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-02-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-02-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-02-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-06-02-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/resourcepacks/Xray+Ultimate+1.12+v2.2.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/DIM-1/data/villages_nether.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/DIM-1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/DIM1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/DIM1/data/villages_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/DIM1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/data/Mineshaft.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/data/Monument.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/playerdata/06093e23-83f4-3c54-bdb0-428639292865.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.0.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World-/stats/06093e23-83f4-3c54-bdb0-428639292865.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/block/BlockCaveBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/block/BlockMineral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/block/BlockOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/block/BlockStairsObsidian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/block/BlockXrayOre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/blockstates/artrite_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/blockstates/cave_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/blockstates/horium_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/blockstates/kozalium_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/blockstates/nitrite_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/blockstates/obsidian_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/blockstates/terralium_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/blockstates/xray_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/artrite_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/cave_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/horium_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/kozalium_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/nitrite_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/obsidian_inner_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/obsidian_outer_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/obsidian_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/terralium_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/block/xray_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/artrite_fragment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/artrite_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/cave_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/horium_fragment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/horium_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/kozalium_fragment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/kozalium_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/nitrite_fragment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/nitrite_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/obsidian_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/terralium_fragment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/terralium_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/xray_fragment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/xray_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/blocks/artrite_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/blocks/cave_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/blocks/horium_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/blocks/kozalium_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/blocks/nitrite_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/blocks/terralium_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/blocks/xray_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/items/artrite_fragment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/items/horium_fragment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/items/kozalium_fragment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/items/nitrite_fragment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/items/terralium_fragment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/textures/items/xray_fragment.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge-1.10.2-12.18.3.2511-mdk.iws" beforeDir="false" afterPath="$PROJECT_DIR$/forge-1.10.2-12.18.3.2511-mdk.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/assets/kozalia/lang/en_US.lang" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/assets/kozalia/lang/en_US.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/assets/kozalia/lang/fr_FR.lang" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/assets/kozalia/lang/fr_FR.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/assets/kozalia/models/item/artrite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/assets/kozalia/models/item/artrite_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/creativetab/KozaliaCreativeTabs$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/creativetab/KozaliaCreativeTabs$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/creativetab/KozaliaCreativeTabs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/creativetab/KozaliaCreativeTabs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/gen/OreGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/gen/OreGeneration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/init/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/init/ModBlocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/init/ModItems$ArmorMaterials.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/init/ModItems$ArmorMaterials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/init/ModItems$ToolMaterials.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/init/ModItems$ToolMaterials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/init/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/forge-1.10.2-12.18.3.2511-mdk/fr/cel/kozalia/init/ModItems.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/06093e23-83f4-3c54-bdb0-428639292865.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/06093e23-83f4-3c54-bdb0-428639292865.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/06093e23-83f4-3c54-bdb0-428639292865.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/06093e23-83f4-3c54-bdb0-428639292865.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/creativetab/KozaliaCreativeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/creativetab/KozaliaCreativeTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/gen/OreGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/gen/OreGeneration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/init/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/init/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/flashblock/lang/en_US.lang" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/flashblock/lang/fr_FR.lang" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/init/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/cel/kozalia/init/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/kozalia/lang/en_US.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/lang/en_US.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/kozalia/lang/fr_FR.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/lang/fr_FR.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/artrite_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/kozalia/models/item/artrite_block.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +181,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/fr/cel/kozalia/init/ModBlocks.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/fr/cel/kozalia/init/ModItems.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/assets/kozalia/lang/en_US.lang" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/assets/kozalia/lang/fr_FR.lang" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,18 +209,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Windows/Documents/GitHub/kozalia-mod/src/main/resources/assets/kozalia/models/item&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.34367815&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Windows/Documents/GitHub/kozalia-mod/src/main/resources/assets/kozalia/models/block",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.34367815",
+    "settings.editor.selected.configurable": "discord-project"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="fr.cel.flashblock.handlers" />
@@ -115,18 +229,18 @@
       <recent name="fr.cel.flashblock.items" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Windows\Documents\GitHub\kozalia-mod\src\main\resources\assets\kozalia\models\item" />
       <recent name="D:\Windows\Documents\GitHub\kozalia-mod\src\main\resources\assets\kozalia\models\block" />
+      <recent name="D:\Windows\Documents\GitHub\kozalia-mod\src\main\resources\assets\kozalia\models\item" />
       <recent name="D:\Windows\Documents\GitHub\kozalia-mod\src\main\resources\assets\kozalia\blockstates" />
       <recent name="D:\Windows\Bureau\Projets\En cours\Dév Minecraft\forge-1.10.2-12.18.3.2511-mdk\src\main\resources\assets\flashblock\models\item" />
       <recent name="D:\Windows\Bureau\Projets\En cours\Dév Minecraft\forge-1.10.2-12.18.3.2511-mdk\src\main\resources\assets\flashblock\textures\items" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Windows\Bureau\Projets\En cours\Dév Minecraft\forge-1.10.2-12.18.3.2511-mdk\src\main\resources\assets\flashblock\textures\items" />
-      <recent name="D:\Windows\Bureau\Projets\En cours\Dév Minecraft\forge-1.10.2-12.18.3.2511-mdk\src\main\resources\assets\flashblock\textures\models\armor" />
-      <recent name="D:\Windows\Bureau\Projets\En cours\Dév Minecraft\forge-1.10.2-12.18.3.2511-mdk\src\main\resources\assets\flashblock\textures\blocks" />
-      <recent name="D:\Windows\Bureau\Projets\En cours\Dév Minecraft\forge-1.10.2-12.18.3.2511-mdk\src\main\resources\assets\flashblock\textures" />
-      <recent name="D:\Windows\Bureau\Projets\En cours\Dév Minecraft\forge-1.10.2-12.18.3.2511-mdk\src\main\resources\assets\flashblock" />
+      <recent name="D:\Windows\Documents\GitHub\kozalia-mod\src\main\resources\assets\kozalia\textures\items" />
+      <recent name="D:\Windows\Documents\GitHub\kozalia-mod\src\main\resources\assets\kozalia\models\item" />
+      <recent name="D:\Windows\Documents\GitHub\kozalia-mod\src\main\resources\assets\kozalia\textures\blocks" />
+      <recent name="D:\Windows\Documents\GitHub\kozalia-mod\src\main\resources\assets\kozalia\models\block" />
+      <recent name="D:\Windows\Documents\GitHub\kozalia-mod\src\main\resources\assets\kozalia\blockstates" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
@@ -240,7 +354,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653774656237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I add the first main blocks of the mod : &#10;The Nitrite/Artrite/Terralium/Horium/Kozalium Blocks !&#10;And of course I changed the Creative Tab's logo for the Kozalium Block who are more appropriated (instead of the apple :joy:)">
+      <created>1654022637337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654022637338</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit #1 :&#10;I add the first main blocks of the mod : The Nitrite/Artrite/Terralium/Horium/Kozalium Blocks !&#10;And of course I changed the Creative Tab's logo for the Kozalium Block who is more appropriated (instead of the apple :joy:)">
+      <created>1654022754482</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654022754482</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +386,9 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit #1&#10;&#10;Modification de la Creative Tabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit #1&#10;&#10;Modification de la Creative Tabs" />
+    <MESSAGE value="I add the first main blocks of the mod : &#10;The Nitrite/Artrite/Terralium/Horium/Kozalium Blocks !&#10;And of course I changed the Creative Tab's logo for the Kozalium Block who are more appropriated (instead of the apple :joy:)" />
+    <MESSAGE value="Commit #1 :&#10;I add the first main blocks of the mod : The Nitrite/Artrite/Terralium/Horium/Kozalium Blocks !&#10;And of course I changed the Creative Tab's logo for the Kozalium Block who is more appropriated (instead of the apple :joy:)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit #1 :&#10;I add the first main blocks of the mod : The Nitrite/Artrite/Terralium/Horium/Kozalium Blocks !&#10;And of course I changed the Creative Tab's logo for the Kozalium Block who is more appropriated (instead of the apple :joy:)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>

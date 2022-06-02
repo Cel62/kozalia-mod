@@ -36,7 +36,11 @@ public class OreGeneration implements IWorldGenerator {
 
     // méthode pour l'Overworld
     private void generateSurface(World world, Random random, int x, int z) {
-        //generateOre(ModBlocks.******.getDefaultState(), world, random, x, z, 5, 50, 8, 13, BlockMatcher.forBlock(Blocks.STONE));
+        generateOre(ModBlocks.nitrite_ore.getDefaultState(), world, random, x, z, 5, 16, 4, 14, BlockMatcher.forBlock(Blocks.STONE));
+        generateOre(ModBlocks.artrite_ore.getDefaultState(), world, random, x, z, 5, 16, 3, 12, BlockMatcher.forBlock(Blocks.STONE));
+        generateOre(ModBlocks.terralium_ore.getDefaultState(), world, random, x, z, 5, 16, 4, 10, BlockMatcher.forBlock(Blocks.STONE));
+        generateOre(ModBlocks.horium_ore.getDefaultState(), world, random, x, z, 5, 16, 3, 8, BlockMatcher.forBlock(Blocks.STONE));
+        generateOre(ModBlocks.kozalium_ore.getDefaultState(), world, random, x, z, 5, 16, 3, 5, BlockMatcher.forBlock(Blocks.STONE));
     }
 
     // méthode pour le Nether
