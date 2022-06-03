@@ -41,6 +41,7 @@ public class OreGeneration implements IWorldGenerator {
         generateOre(ModBlocks.terralium_ore.getDefaultState(), world, random, x, z, 5, 16, 4, 10, BlockMatcher.forBlock(Blocks.STONE));
         generateOre(ModBlocks.horium_ore.getDefaultState(), world, random, x, z, 5, 16, 3, 8, BlockMatcher.forBlock(Blocks.STONE));
         generateOre(ModBlocks.kozalium_ore.getDefaultState(), world, random, x, z, 5, 16, 3, 5, BlockMatcher.forBlock(Blocks.STONE));
+        generateOre(ModBlocks.xray_ore.getDefaultState(), world, random, x, z, 5, 16, 4, 10, BlockMatcher.forBlock(Blocks.STONE));
     }
 
     // méthode pour le Nether

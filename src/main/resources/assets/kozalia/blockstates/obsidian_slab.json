@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "dummy=false,half=bottom": { "model": "kozalia:obsidian_slab_bottom" },
+        "dummy=false,half=top": { "model": "kozalia:obsidian_slab_top" }
+    }
+}

@@ -1,11 +1,14 @@
 package fr.cel.kozalia.init;
 
 import fr.cel.kozalia.block.*;
+import fr.cel.kozalia.block.slab.BlockDoubleObsidianSlab;
+import fr.cel.kozalia.block.slab.BlockHalfObsidianSlab;
 import fr.cel.kozalia.util.References;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemSlab;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -17,7 +20,6 @@ public class ModBlocks {
     public ModBlocks() {
         initBlocks();
         registersBlocks();
-        registerItemBlocks();
     }
 
     /**
@@ -40,6 +42,18 @@ public class ModBlocks {
     public static Block cave_block;
     public static Block xray_ore;
     public static Block obsidian_stairs;
+    public static BlockHalfObsidianSlab obsidian_slab;
+    public static BlockDoubleObsidianSlab obsidian_double_slab;
+    public static Block white_block;
+    public static Block black_block;
+    public static Block red_block;
+    public static Block green_block;
+    public static Block blue_block;
+    public static Block light_blue_block;
+    public static Block pink_block;
+    public static Block purple_block;
+    public static Block yellow_block;
+    public static Block orange_block;
 
     // initialisation block
     private void initBlocks() {
@@ -59,6 +73,19 @@ public class ModBlocks {
         xray_ore = new BlockXrayOre("xray_ore");
 
         obsidian_stairs = new BlockStairsObsidian("obsidian_stairs");
+        obsidian_slab = new BlockHalfObsidianSlab("obsidian_slab");
+        obsidian_double_slab = new BlockDoubleObsidianSlab("obsidian_double_slab");
+
+        white_block = new BlockColor("white_block");
+        black_block = new BlockColor("black_block");
+        red_block = new BlockColor("red_block");
+        green_block = new BlockColor("green_block");
+        blue_block = new BlockColor("blue_block");
+        light_blue_block = new BlockColor("light_blue_block");
+        pink_block = new BlockColor("pink_block");
+        purple_block = new BlockColor("purple_block");
+        yellow_block = new BlockColor("yellow_block");
+        orange_block = new BlockColor("orange_block");
     }
 
     // add item
@@ -79,47 +106,52 @@ public class ModBlocks {
         register(xray_ore);
 
         register(obsidian_stairs);
+        register(obsidian_slab, new ItemSlab(obsidian_slab, obsidian_slab, obsidian_double_slab));
+        GameRegistry.register(obsidian_double_slab);
+
+        register(white_block);
+        register(black_block);
+        register(red_block);
+        register(green_block);
+        register(blue_block);
+        register(light_blue_block);
+        register(pink_block);
+        register(purple_block);
+        register(yellow_block);
+        register(orange_block);
     }
 
     // add render du block
     @SideOnly(Side.CLIENT)
     public static void registerRenders() {
-        registerRender(nitrite_block, 0);
-        registerRender(artrite_block, 0);
-        registerRender(terralium_block, 0);
-        registerRender(horium_block, 0);
-        registerRender(kozalium_block, 0);
+        registerRender(nitrite_block);
+        registerRender(artrite_block);
+        registerRender(terralium_block);
+        registerRender(horium_block);
+        registerRender(kozalium_block);
 
-        registerRender(nitrite_ore, 0);
-        registerRender(artrite_ore, 0);
-        registerRender(terralium_ore, 0);
-        registerRender(horium_ore, 0);
-        registerRender(kozalium_ore, 0);
+        registerRender(nitrite_ore);
+        registerRender(artrite_ore);
+        registerRender(terralium_ore);
+        registerRender(horium_ore);
+        registerRender(kozalium_ore);
 
-        registerRender(cave_block, 0);
-        registerRender(xray_ore, 0);
+        registerRender(cave_block);
+        registerRender(xray_ore);
 
-        registerRender(obsidian_stairs, 0);
-    }
+        registerRender(obsidian_stairs);
+        registerRender(obsidian_slab);
 
-    // block -> item
-    private void registerItemBlocks() {
-        registerItemBlock(nitrite_block);
-        registerItemBlock(artrite_block);
-        registerItemBlock(terralium_block);
-        registerItemBlock(horium_block);
-        registerItemBlock(kozalium_block);
-
-        registerItemBlock(nitrite_ore);
-        registerItemBlock(artrite_ore);
-        registerItemBlock(terralium_ore);
-        registerItemBlock(horium_ore);
-        registerItemBlock(kozalium_ore);
-
-        registerItemBlock(cave_block);
-        registerItemBlock(xray_ore);
-
-        registerItemBlock(obsidian_stairs);
+        registerRender(white_block);
+        registerRender(black_block);
+        registerRender(red_block);
+        registerRender(green_block);
+        registerRender(blue_block);
+        registerRender(light_blue_block);
+        registerRender(pink_block);
+        registerRender(purple_block);
+        registerRender(yellow_block);
+        registerRender(orange_block);
     }
 
     /*----------------------------------------------------------------------------------------------------------------*/
@@ -127,18 +159,21 @@ public class ModBlocks {
     // méthode pour add le block
     private void register(Block block) {
         GameRegistry.register(block);
+        GameRegistry.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
+    }
+
+    private void register(Block block, ItemBlock itemBlock) {
+        GameRegistry.register(block);
+        GameRegistry.register(itemBlock.setRegistryName(block.getRegistryName()));
     }
 
     // méthode : add render du block
-    public static void registerRender(Block block, int meta) {
-        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), meta, new ModelResourceLocation(new ResourceLocation(References.MODID, block.getUnlocalizedName().substring(5)), "inventory"));
+    public static void registerRender(Block block) {
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(new ResourceLocation(References.MODID, block.getUnlocalizedName().substring(5)), "inventory"));
     }
 
-    // méthode : add block -> item
-    private void registerItemBlock(Block block) {
-        ItemBlock itemBlock = new ItemBlock(block);
-        itemBlock.setRegistryName(block.getRegistryName());
-        GameRegistry.register(itemBlock);
+    public static void registerRender(Block block, int meta) {
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), meta, new ModelResourceLocation(new ResourceLocation(References.MODID, block.getUnlocalizedName().substring(5)), "inventory"));
     }
 
 }

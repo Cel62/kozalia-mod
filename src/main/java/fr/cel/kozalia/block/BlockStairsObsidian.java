@@ -17,6 +17,7 @@ public class BlockStairsObsidian extends BlockStairs {
 
         this.setRegistryName(name);
         this.setUnlocalizedName(name);
+        this.useNeighborBrightness = true;
     }
 
 }

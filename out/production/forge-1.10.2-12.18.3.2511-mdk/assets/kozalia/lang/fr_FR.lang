@@ -3,25 +3,39 @@ itemGroup.kozalia=Kozalia
 itemGroup.skyfaction=SkyFaction
 
 # Blocks
-tile.nitrite_block.name=Bloc de Nitrite
-tile.artrite_block.name=Bloc d'Artrite
-tile.terralium_block.name=Bloc de Terralium
-tile.horium_block.name=Bloc d'Horium
-tile.kozalium_block.name=Bloc de Kozalium
+tile.nitrite_block.name=Bloc de nitrite
+tile.artrite_block.name=Bloc d'artrite
+tile.terralium_block.name=Bloc de terralium
+tile.horium_block.name=Bloc d'horium
+tile.kozalium_block.name=Bloc de kozalium
 
-tile.nitrite_ore.name=Minerai de Nitrite
-tile.artrite_ore.name=Minerai de Artrite
-tile.terralium_ore.name=Minerai de Terralium
-tile.horium_ore.name=Minerai de Horium
-tile.kozalium_ore.name=Minerai de Kozalium
+tile.nitrite_ore.name=Minerai de nitrite
+tile.artrite_ore.name=Minerai d'artrite
+tile.terralium_ore.name=Minerai de terralium
+tile.horium_ore.name=Minerai d'horium
+tile.kozalium_ore.name=Minerai de kozalium
 
 tile.cave_block.name=Bloc d'XRay
 tile.xray_ore.name=Minerai d'XRay
 
+tile.obsidian_stairs.name=Escaliers en obsidian
+tile.obsidian_slab.name=Dalle en obsidian
+
+tile.white_block.name=White Block
+tile.black_block.name=Black Block
+tile.red_block.name=Red Block
+tile.green_block.name=Green Block
+tile.blue_block.name=Blue Block
+tile.light_blue_block.name=Light Blue Block
+tile.pink_block.name=Pink Block
+tile.purple_block.name=Purple Block
+tile.orange_block.name=Orange Block
+tile.yellow_block.name=Yellow Block
+
 # Items
-item.nitrite_fragment.name=Fragment de Nitrite
-item.artrite_fragment.name=Fragment de Artrite
-item.terralium_fragment.name=Fragment de Terralium
-item.horium_fragment.name=Fragment de Horium
-item.kozalium_fragment.name=Fragment de Kozalium
+item.nitrite_fragment.name=Fragment de nitrite
+item.artrite_fragment.name=Fragment d'artrite
+item.terralium_fragment.name=Fragment de terralium
+item.horium_fragment.name=Fragment d'horium
+item.kozalium_fragment.name=Fragment de kozalium
 item.xray_fragment.name=Fragment d'Xray

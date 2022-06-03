@@ -18,6 +18,20 @@ tile.kozalium_ore.name=Kozalium Ore
 tile.cave_block.name=Cave Block
 tile.xray_ore.name=Cave Ore
 
+tile.obsidian_stairs.name=Obsidian Stairs
+tile.obsidian_slab.name=Obsidian Slab
+
+tile.white_block.name=White Block
+tile.black_block.name=Black Block
+tile.red_block.name=Red Block
+tile.green_block.name=Green Block
+tile.blue_block.name=Blue Block
+tile.light_blue_block.name=Light Blue Block
+tile.pink_block.name=Pink Block
+tile.purple_block.name=Purple Block
+tile.orange_block.name=Orange Block
+tile.yellow_block.name=Yellow Block
+
 # Items
 item.nitrite_fragment.name=Nitrite Fragment
 item.artrite_fragment.name=Artrite Fragment
