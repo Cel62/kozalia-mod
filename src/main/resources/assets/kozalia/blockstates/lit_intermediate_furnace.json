@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "kozalia:lit_intermediate_furnace" },
+        "facing=south": { "model": "kozalia:lit_intermediate_furnace", "y": 180 },
+        "facing=west":  { "model": "kozalia:lit_intermediate_furnace", "y": 270 },
+        "facing=east":  { "model": "kozalia:lit_intermediate_furnace", "y": 90 }
+    }
+}

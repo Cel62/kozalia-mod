@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "kozalia:blocks/nitrite_tnt_bottom",
+        "top": "kozalia:blocks/nitrite_tnt_top",
+        "side": "kozalia:blocks/nitrite_tnt_side"
+    }
+}

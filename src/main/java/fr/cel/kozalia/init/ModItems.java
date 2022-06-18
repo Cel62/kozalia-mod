@@ -3,7 +3,9 @@ package fr.cel.kozalia.init;
 import fr.cel.kozalia.creativetab.KozaliaCreativeTabs;
 import fr.cel.kozalia.util.References;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlockSpecial;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -56,12 +58,12 @@ public class ModItems {
     // add render item
     @SideOnly(Side.CLIENT)
     public static void registerRenders() {
-        registerRender(nitrite_fragment, 0);
-        registerRender(artrite_fragment, 0);
-        registerRender(terralium_fragment, 0);
-        registerRender(horium_fragment, 0);
-        registerRender(kozalium_fragment, 0);
-        registerRender(xray_fragment, 0);
+        registerRender(nitrite_fragment);
+        registerRender(artrite_fragment);
+        registerRender(terralium_fragment);
+        registerRender(horium_fragment);
+        registerRender(kozalium_fragment);
+        registerRender(xray_fragment);
     }
 
     /*----------------------------------------------------------------------------------------------------------------*/
@@ -73,11 +75,11 @@ public class ModItems {
 
     // méthode : add render de l'item
     public static void registerRender(Item item, int meta) {
-        if (meta == 0) {
-            ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(References.MODID, item.getUnlocalizedName().substring(5)), "inventory"));
-        } else {
-            ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(new ResourceLocation(References.MODID, item.getUnlocalizedName().substring(5) + meta), "inventory"));
-        }
+        ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(new ResourceLocation(References.MODID, item.getUnlocalizedName().substring(5) + meta), "inventory"));
+    }
+
+    public static void registerRender(Item item){
+        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(References.MODID, item.getUnlocalizedName().substring(5)), "inventory"));
     }
 
     // créer material pour armor

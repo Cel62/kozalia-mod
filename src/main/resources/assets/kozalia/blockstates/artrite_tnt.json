@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": { "model": "kozalia:artrite_tnt" },
+        "explode=true": { "model": "kozalia:artrite_tnt" },
+        "explode=false": { "model": "kozalia:artrite_tnt" }
+    }
+}

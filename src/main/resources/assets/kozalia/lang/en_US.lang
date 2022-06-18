@@ -32,6 +32,27 @@ tile.purple_block.name=Purple Block
 tile.orange_block.name=Orange Block
 tile.yellow_block.name=Yellow Block
 
+tile.renforced_cobblestone.name=Renforced Cobblestone
+tile.compressed_tnt.name=Compressed TNT
+
+tile.nitrite_cake.name=Nitrite Cake
+tile.artrite_cake.name=Artrite Cake
+tile.terralium_cake.name=Terralium Cake
+tile.horium_cake.name=Horium Cake
+tile.kozalium_cake.name=Kozalium
+
+tile.nitrite_tnt.name=Nitrite TNT
+tile.artrite_tnt.name=Artrite TNT
+tile.terralium_tnt.name=Terralium TNT
+tile.horium_tnt.name=Horium TNT
+tile.kozalium_tnt.name=Kozalium TNT
+
+tile.basic_furnace.name=Basic Furnace
+tile.intermediate_furnace.name=Intermediate Furnace
+tile.advanced_furnace.name=Advanced Furnace
+tile.supreme_furnace.name=Supreme Furnace
+tile.ultimate_furnace.name=Ultimate Furnace
+
 # Items
 item.nitrite_fragment.name=Nitrite Fragment
 item.artrite_fragment.name=Artrite Fragment
@@ -39,3 +60,6 @@ item.terralium_fragment.name=Terralium Fragment
 item.horium_fragment.name=Horium Fragment
 item.kozalium_fragment.name=Kozalium Fragment
 item.xray_fragment.name=Xray Fragment
+
+# Container
+container.mineralfurnace=Mineral Furnace

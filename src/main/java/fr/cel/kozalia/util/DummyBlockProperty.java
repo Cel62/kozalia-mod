@@ -18,9 +18,8 @@ public class DummyBlockProperty extends PropertyHelper<Boolean> {
 
     /**
      * Initialise the dummy property
-     *
      * @param name
-     *            The name of the property
+     * The name of the property
      */
     protected DummyBlockProperty(String name) {
         super(name, Boolean.class);

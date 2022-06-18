@@ -3,9 +3,17 @@ package fr.cel.kozalia.init;
 import fr.cel.kozalia.block.*;
 import fr.cel.kozalia.block.slab.BlockDoubleObsidianSlab;
 import fr.cel.kozalia.block.slab.BlockHalfObsidianSlab;
+import fr.cel.kozalia.creativetab.KozaliaCreativeTabs;
 import fr.cel.kozalia.util.References;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockCake;
+import net.minecraft.block.BlockTNT;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.properties.IProperty;
+import net.minecraft.client.renderer.block.model.ModelManager;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.renderer.block.statemap.StateMap;
+import net.minecraft.client.renderer.texture.TextureMap;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemSlab;
@@ -54,6 +62,30 @@ public class ModBlocks {
     public static Block purple_block;
     public static Block yellow_block;
     public static Block orange_block;
+    public static Block renforced_cobblestone;
+    public static Block compressed_tnt;
+    public static Block nitrite_cake;
+    public static Block artrite_cake;
+    public static Block terralium_cake;
+    public static Block horium_cake;
+    public static Block kozalium_cake;
+    public static Block nitrite_tnt;
+    public static Block artrite_tnt;
+    public static Block terralium_tnt;
+    public static Block horium_tnt;
+    public static Block kozalium_tnt;
+    // TNT
+    public static Block basic_furnace;
+    public static Block intermediate_furnace;
+    public static Block advanced_furnace;
+    public static Block supreme_furnace;
+    public static Block ultimate_furnace;
+    public static Block lit_basic_furnace;
+    public static Block lit_intermediate_furnace;
+    public static Block lit_advanced_furnace;
+    public static Block lit_supreme_furnace;
+    public static Block lit_ultimate_furnace;
+    // TNT
 
     // initialisation block
     private void initBlocks() {
@@ -86,9 +118,40 @@ public class ModBlocks {
         purple_block = new BlockColor("purple_block");
         yellow_block = new BlockColor("yellow_block");
         orange_block = new BlockColor("orange_block");
+
+        renforced_cobblestone = new Block(Material.ROCK).setHardness(20.0f).setResistance(25.0f).setUnlocalizedName("renforced_cobblestone").setRegistryName("renforced_cobblestone").setCreativeTab(KozaliaCreativeTabs.KOZALIA);
+        compressed_tnt = new Block(Material.TNT).setHardness(0.0f).setUnlocalizedName("compressed_tnt").setRegistryName("compressed_tnt").setCreativeTab(KozaliaCreativeTabs.KOZALIA);
+
+        nitrite_cake = new BlockMineralCakes("nitrite_cake", BlockMineralCakes.Type.NITRITE);
+        artrite_cake = new BlockMineralCakes("artrite_cake", BlockMineralCakes.Type.ARTRITE);
+        terralium_cake = new BlockMineralCakes("terralium_cake", BlockMineralCakes.Type.TERRARIUM);
+        horium_cake = new BlockMineralCakes("horium_cake", BlockMineralCakes.Type.HORIUM);
+        kozalium_cake = new BlockMineralCakes("kozalium_cake", BlockMineralCakes.Type.KOZALIUM);
+
+        nitrite_tnt = new BlockMineralTNT("nitrite_tnt", BlockMineralTNT.TntMaterial.NITRITE);
+        artrite_tnt = new BlockMineralTNT("artrite_tnt", BlockMineralTNT.TntMaterial.ARTRITE);
+        terralium_tnt = new BlockMineralTNT("terralium_tnt", BlockMineralTNT.TntMaterial.TERRALIUM);
+        horium_tnt = new BlockMineralTNT("horium_tnt", BlockMineralTNT.TntMaterial.HORIUM);
+        kozalium_tnt = new BlockMineralTNT("kozalium_tnt", BlockMineralTNT.TntMaterial.KOZALIUM);
+
+        basic_furnace = new BlockMineralFurnace("basic_furnace", "basic_furnace", false, BlockMineralFurnace.Level.BASIC).setCreativeTab(KozaliaCreativeTabs.KOZALIA);
+        lit_basic_furnace = new BlockMineralFurnace("lit_basic_furnace", "basic_furnace", true, BlockMineralFurnace.Level.BASIC).setLightLevel(0.875f);
+
+        intermediate_furnace = new BlockMineralFurnace("intermediate_furnace", "intermediate_furnace", false, BlockMineralFurnace.Level.INTERMEDIATE).setCreativeTab(KozaliaCreativeTabs.KOZALIA);
+        lit_intermediate_furnace = new BlockMineralFurnace("lit_intermediate_furnace", "intermediate_furnace",true, BlockMineralFurnace.Level.INTERMEDIATE).setLightLevel(0.875f);
+
+        advanced_furnace = new BlockMineralFurnace("advanced_furnace", "advanced_furnace", false, BlockMineralFurnace.Level.ADVANCED).setCreativeTab(KozaliaCreativeTabs.KOZALIA);
+        lit_advanced_furnace = new BlockMineralFurnace("lit_advanced_furnace", "advanced_furnace", true, BlockMineralFurnace.Level.ADVANCED).setLightLevel(0.875f);
+
+        supreme_furnace = new BlockMineralFurnace("supreme_furnace", "supreme_furnace",false, BlockMineralFurnace.Level.SUPREME).setCreativeTab(KozaliaCreativeTabs.KOZALIA);
+        lit_supreme_furnace = new BlockMineralFurnace("lit_supreme_furnace", "supreme_furnace",true, BlockMineralFurnace.Level.SUPREME).setLightLevel(0.875f);
+
+        ultimate_furnace = new BlockMineralFurnace("ultimate_furnace", "ultimate_furnace",false, BlockMineralFurnace.Level.ULTIMATE).setCreativeTab(KozaliaCreativeTabs.KOZALIA);
+        lit_ultimate_furnace = new BlockMineralFurnace("lit_ultimate_furnace", "ultimate_furnace",true, BlockMineralFurnace.Level.ULTIMATE).setLightLevel(0.875f);
+
     }
 
-    // add item
+    // add block + item
     private void registersBlocks() {
         register(nitrite_block);
         register(artrite_block);
@@ -119,6 +182,36 @@ public class ModBlocks {
         register(purple_block);
         register(yellow_block);
         register(orange_block);
+
+        register(renforced_cobblestone);
+        register(compressed_tnt);
+
+        register(nitrite_cake, (ItemBlock) new ItemBlock(nitrite_cake).setMaxStackSize(1));
+        register(artrite_cake, (ItemBlock) new ItemBlock(artrite_cake).setMaxStackSize(1));
+        register(terralium_cake, (ItemBlock) new ItemBlock(terralium_cake).setMaxStackSize(1));
+        register(horium_cake, (ItemBlock) new ItemBlock(horium_cake).setMaxStackSize(1));
+        register(kozalium_cake, (ItemBlock) new ItemBlock(kozalium_cake).setMaxStackSize(1));
+
+        register(nitrite_tnt);
+        register(artrite_tnt);
+        register(terralium_tnt);
+        register(horium_tnt);
+        register(kozalium_tnt);
+
+        register(basic_furnace);
+        register(lit_basic_furnace);
+
+        register(intermediate_furnace);
+        register(lit_intermediate_furnace);
+
+        register(advanced_furnace);
+        register(lit_advanced_furnace);
+
+        register(supreme_furnace);
+        register(lit_supreme_furnace);
+
+        register(ultimate_furnace);
+        register(lit_ultimate_furnace);
     }
 
     // add render du block
@@ -152,6 +245,36 @@ public class ModBlocks {
         registerRender(purple_block);
         registerRender(yellow_block);
         registerRender(orange_block);
+
+        registerRender(renforced_cobblestone);
+        registerRender(compressed_tnt);
+
+        registerRender(nitrite_cake);
+        registerRender(artrite_cake);
+        registerRender(terralium_cake);
+        registerRender(horium_cake);
+        registerRender(kozalium_cake);
+
+        registerRender(nitrite_tnt);
+        registerRender(artrite_tnt);
+        registerRender(terralium_tnt);
+        registerRender(horium_tnt);
+        registerRender(kozalium_tnt);
+
+        registerRender(basic_furnace);
+        registerRender(lit_basic_furnace);
+
+        registerRender(intermediate_furnace);
+        registerRender(lit_intermediate_furnace);
+
+        registerRender(advanced_furnace);
+        registerRender(lit_advanced_furnace);
+
+        registerRender(supreme_furnace);
+        registerRender(lit_supreme_furnace);
+
+        registerRender(ultimate_furnace);
+        registerRender(lit_ultimate_furnace);
     }
 
     /*----------------------------------------------------------------------------------------------------------------*/
@@ -172,6 +295,7 @@ public class ModBlocks {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(new ResourceLocation(References.MODID, block.getUnlocalizedName().substring(5)), "inventory"));
     }
 
+    // méthode : add render block avec meta
     public static void registerRender(Block block, int meta) {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), meta, new ModelResourceLocation(new ResourceLocation(References.MODID, block.getUnlocalizedName().substring(5)), "inventory"));
     }

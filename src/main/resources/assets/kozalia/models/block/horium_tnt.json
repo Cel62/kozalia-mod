@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "kozalia:blocks/horium_tnt_bottom",
+        "top": "kozalia:blocks/horium_tnt_top",
+        "side": "kozalia:blocks/horium_tnt_side"
+    }
+}

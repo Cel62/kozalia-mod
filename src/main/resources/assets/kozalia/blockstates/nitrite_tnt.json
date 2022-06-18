@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": { "model": "kozalia:nitrite_tnt" },
+        "explode=true": { "model": "kozalia:nitrite_tnt" },
+        "explode=false": { "model": "kozalia:nitrite_tnt" }
+    }
+}

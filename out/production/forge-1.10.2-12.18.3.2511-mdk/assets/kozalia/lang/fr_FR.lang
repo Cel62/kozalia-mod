@@ -21,16 +21,37 @@ tile.xray_ore.name=Minerai d'XRay
 tile.obsidian_stairs.name=Escaliers en obsidian
 tile.obsidian_slab.name=Dalle en obsidian
 
-tile.white_block.name=White Block
-tile.black_block.name=Black Block
-tile.red_block.name=Red Block
-tile.green_block.name=Green Block
-tile.blue_block.name=Blue Block
-tile.light_blue_block.name=Light Blue Block
-tile.pink_block.name=Pink Block
-tile.purple_block.name=Purple Block
-tile.orange_block.name=Orange Block
-tile.yellow_block.name=Yellow Block
+tile.white_block.name=Bloc blanc
+tile.black_block.name=Bloc noir
+tile.red_block.name=Bloc rouge
+tile.green_block.name=Bloc vert
+tile.blue_block.name=Bloc bleu
+tile.light_blue_block.name=Bloc bleu clair
+tile.pink_block.name=Bloc rose
+tile.purple_block.name=Bloc violet
+tile.orange_block.name=Bloc orange
+tile.yellow_block.name=Bloc jaune
+
+tile.renforced_cobblestone.name=Pierres renforcées
+tile.compressed_tnt.name=TNT compressée
+
+tile.nitrite_cake.name=Gâteau en Nitrite
+tile.artrite_cake.name=Gâteau en Artrite
+tile.terralium_cake.name=Gâteau en Terralium
+tile.horium_cake.name=Gâteau en Horium
+tile.kozalium_cake.name=Gâteau en Kozalium
+
+tile.nitrite_tnt.name=TNT en Nitrite
+tile.artrite_tnt.name=TNT en Artrite
+tile.terralium_tnt.name=TNT en Terralium
+tile.horium_tnt.name=TNT en Horium
+tile.kozalium_tnt.name=TNT en Kozalium
+
+tile.basic_furnace.name=Fourneau basique
+tile.intermediate_furnace.name=Fourneau intermédiaire
+tile.advanced_furnace.name=Fourneau avancé
+tile.supreme_furnace.name=Fourneau suprême
+tile.ultimate_furnace.name=Fourneau ultime
 
 # Items
 item.nitrite_fragment.name=Fragment de nitrite
@@ -39,3 +60,6 @@ item.terralium_fragment.name=Fragment de terralium
 item.horium_fragment.name=Fragment d'horium
 item.kozalium_fragment.name=Fragment de kozalium
 item.xray_fragment.name=Fragment d'Xray
+
+# Container
+container.mineralfurnace=Fourneau minéral

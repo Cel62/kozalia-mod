@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": { "model": "kozalia:kozalium_tnt" },
+        "explode=true": { "model": "kozalia:kozalium_tnt" },
+        "explode=false": { "model": "kozalia:kozalium_tnt" }
+    }
+}

@@ -1,37 +1,37 @@
-[19:27:01] [main/INFO]: username: Cel___
-[19:27:01] [main/INFO]: Extra: []
-[19:27:01] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/celcr/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --username, Cel___, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[19:27:01] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:27:01] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:27:01] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:27:01] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[19:27:01] [main/INFO]: Forge Mod Loader version 12.18.3.2511 for Minecraft 1.10.2 loading
-[19:27:01] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_251\jre
-[19:27:01] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[19:27:01] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:27:01] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[19:27:01] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[19:27:01] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:27:01] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:27:01] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:27:01] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:27:01] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:27:01] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:27:02] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[19:27:04] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[19:27:04] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:27:04] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:27:05] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:27:05] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:27:05] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:27:05] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[19:27:07] [Client thread/INFO]: Setting user: Cel___
-[19:27:13] [Client thread/WARN]: Skipping bad option: lastServer:
-[19:27:13] [Client thread/INFO]: LWJGL Version: 2.9.4
-[19:27:14] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:225]: ---- Minecraft Crash Report ----
-// This doesn't make any sense!
+[01:30:28] [main/INFO]: username: Cel___
+[01:30:28] [main/INFO]: Extra: []
+[01:30:28] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/celcr/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --username, Cel___, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[01:30:28] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:30:28] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:30:28] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:30:28] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:30:28] [main/INFO]: Forge Mod Loader version 12.18.3.2511 for Minecraft 1.10.2 loading
+[01:30:28] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_251\jre
+[01:30:28] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[01:30:28] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:30:28] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[01:30:28] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[01:30:28] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:30:28] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:30:28] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:30:28] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:30:28] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:30:28] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:30:28] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[01:30:31] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[01:30:31] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:30:31] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:30:31] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:30:31] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:30:31] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:30:31] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:30:34] [Client thread/INFO]: Setting user: Cel___
+[01:30:38] [Client thread/WARN]: Skipping bad option: lastServer:
+[01:30:38] [Client thread/INFO]: LWJGL Version: 2.9.4
+[01:30:40] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:225]: ---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
 
-Time: 03/06/22 19:27
+Time: 19/06/22 01:30
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -46,114 +46,156 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_251, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 551780144 bytes (526 MB) / 767033344 bytes (731 MB) up to 3790077952 bytes (3614 MB)
+	Memory: 398532800 bytes (380 MB) / 722993152 bytes (689 MB) up to 3790077952 bytes (3614 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 512.95' Renderer: 'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-[19:27:15] [Client thread/INFO]: MinecraftForge v12.18.3.2511 Initialized
-[19:27:15] [Client thread/INFO]: Replaced 231 ore recipes
-[19:27:15] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[19:27:15] [Client thread/INFO]: Searching D:\Windows\Documents\GitHub\kozalia-mod\run\mods for mods
-[19:27:16] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[19:27:17] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kozalia] at CLIENT
-[19:27:17] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kozalia] at SERVER
-[19:27:18] [Thread-6/INFO]: Using sync timing. 200 frames of Display.update took 244787300 nanos
-[19:27:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Kozalia
-[19:27:18] [Client thread/INFO]: Processing ObjectHolder annotations
-[19:27:18] [Client thread/INFO]: Found 423 ObjectHolder annotations
-[19:27:18] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[19:27:18] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[19:27:18] [Client thread/INFO]: Applying holder lookups
-[19:27:18] [Client thread/INFO]: Holder lookups applied
-[19:27:18] [Client thread/INFO]: Applying holder lookups
-[19:27:18] [Client thread/INFO]: Holder lookups applied
-[19:27:18] [Client thread/INFO]: Applying holder lookups
-[19:27:18] [Client thread/INFO]: Holder lookups applied
-[19:27:18] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[19:27:18] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[19:27:18] [Client thread/INFO]: Applying holder lookups
-[19:27:18] [Client thread/INFO]: Holder lookups applied
-[19:27:18] [Client thread/INFO]: Injecting itemstacks
-[19:27:18] [Client thread/INFO]: Itemstack injection complete
-[19:27:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[19:27:23] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[19:27:23] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:27:23] [Thread-8/INFO]: OpenAL initialized.
-[19:27:24] [Sound Library Loader/INFO]: Sound engine started
-[19:27:31] [Client thread/INFO]: Max texture size: 16384
-[19:27:31] [Client thread/INFO]: Created: 16x16 textures-atlas
-[19:27:33] [Client thread/INFO]: Injecting itemstacks
-[19:27:33] [Client thread/INFO]: Itemstack injection complete
-[19:27:33] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[19:27:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Kozalia
-[19:27:37] [Client thread/INFO]: SoundSystem shutting down...
-[19:27:37] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[19:27:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[19:27:37] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[19:27:37] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:27:38] [Thread-10/INFO]: OpenAL initialized.
-[19:27:38] [Sound Library Loader/INFO]: Sound engine started
-[19:27:44] [Client thread/INFO]: Max texture size: 16384
-[19:27:44] [Client thread/INFO]: Created: 512x512 textures-atlas
-[19:27:46] [Client thread/WARN]: Skipping bad option: lastServer:
-[19:27:47] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[19:28:21] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
-[19:28:21] [Server thread/INFO]: Generating keypair
-[19:28:21] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[19:28:21] [Server thread/INFO]: Found a missing id from the world kozalia:obsidian_slab_half
-[19:28:21] [Server thread/INFO]: Found a missing id from the world kozalia:double_obsidian_slab
-[19:28:21] [Server thread/INFO]: Applying holder lookups
-[19:28:21] [Server thread/INFO]: Holder lookups applied
-[19:28:21] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@747215ef)
-[19:28:22] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@747215ef)
-[19:28:22] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@747215ef)
-[19:28:22] [Server thread/INFO]: Preparing start region for level 0
-[19:28:23] [Server thread/INFO]: Changing view distance to 8, from 10
-[19:28:24] [Netty Local Client IO #0/INFO]: Server protocol version 2
-[19:28:24] [Netty Server IO #1/INFO]: Client protocol version 2
-[19:28:24] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : kozalia@0.1,FML@8.0.99.99,Forge@12.18.3.2511,mcp@9.19
-[19:28:24] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
-[19:28:24] [Server thread/INFO]: [Server thread] Server side modded connection established
-[19:28:24] [Server thread/INFO]: Cel___[local:E:dfcb0744] logged in with entity id 74 at (15.950970070881052, 4.0, 166.57486344156646)
-[19:28:24] [Server thread/INFO]: Cel___ a rejoint la partie
-[19:28:25] [Server thread/INFO]: Saving and pausing game...
-[19:28:25] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:28:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:28:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:28:34] [Server thread/INFO]: Saving and pausing game...
-[19:28:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:28:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:28:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:28:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Kozalia
-[19:28:44] [Client thread/INFO]: SoundSystem shutting down...
-[19:28:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[19:28:45] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[19:28:45] [Thread-13/INFO]: Initializing LWJGL OpenAL
-[19:28:45] [Thread-13/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:28:45] [Thread-13/INFO]: OpenAL initialized.
-[19:28:45] [Sound Library Loader/INFO]: Sound engine started
-[19:28:52] [Client thread/INFO]: Max texture size: 16384
-[19:28:53] [Client thread/INFO]: Created: 512x512 textures-atlas
-[19:52:31] [Server thread/INFO]: Saving and pausing game...
-[19:52:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:52:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:52:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:52:33] [Client thread/INFO]: Stopping!
-[19:52:33] [Client thread/INFO]: SoundSystem shutting down...
-[19:52:33] [Server thread/INFO]: Stopping server
-[19:52:33] [Server thread/INFO]: Saving players
-[19:52:33] [Server thread/INFO]: Saving worlds
-[19:52:33] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:52:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:52:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:52:33] [Server thread/INFO]: Unloading dimension 0
-[19:52:33] [Server thread/INFO]: Unloading dimension -1
-[19:52:33] [Server thread/INFO]: Unloading dimension 1
-[19:52:33] [Server thread/INFO]: Applying holder lookups
-[19:52:33] [Server thread/INFO]: Holder lookups applied
-[19:52:33] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[19:52:33] [Client Shutdown Thread/INFO]: Stopping server
-[19:52:33] [Client Shutdown Thread/INFO]: Saving players
-[19:52:33] [Client Shutdown Thread/INFO]: Saving worlds
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 516.40' Renderer: 'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+[01:30:40] [Client thread/INFO]: MinecraftForge v12.18.3.2511 Initialized
+[01:30:40] [Client thread/INFO]: Replaced 231 ore recipes
+[01:30:40] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[01:30:40] [Client thread/INFO]: Searching D:\Windows\Documents\GitHub\kozalia-mod\run\mods for mods
+[01:30:42] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[01:30:42] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kozalia] at CLIENT
+[01:30:42] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kozalia] at SERVER
+[01:30:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Kozalia
+[01:30:43] [Client thread/INFO]: Processing ObjectHolder annotations
+[01:30:43] [Client thread/INFO]: Found 423 ObjectHolder annotations
+[01:30:43] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[01:30:43] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[01:30:43] [Client thread/INFO]: Applying holder lookups
+[01:30:43] [Client thread/INFO]: Holder lookups applied
+[01:30:43] [Client thread/INFO]: Applying holder lookups
+[01:30:43] [Client thread/INFO]: Holder lookups applied
+[01:30:43] [Client thread/INFO]: Applying holder lookups
+[01:30:43] [Client thread/INFO]: Holder lookups applied
+[01:30:43] [Thread-6/INFO]: Using sync timing. 200 frames of Display.update took 363017200 nanos
+[01:30:43] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[01:30:43] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:30:44] [Client thread/INFO]: Applying holder lookups
+[01:30:44] [Client thread/INFO]: Holder lookups applied
+[01:30:44] [Client thread/INFO]: Injecting itemstacks
+[01:30:44] [Client thread/INFO]: Itemstack injection complete
+[01:30:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:30:48] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[01:30:48] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:30:48] [Thread-8/INFO]: OpenAL initialized.
+[01:30:49] [Sound Library Loader/INFO]: Sound engine started
+[01:30:55] [Client thread/INFO]: Max texture size: 16384
+[01:30:55] [Client thread/INFO]: Created: 16x16 textures-atlas
+[01:30:56] [Client thread/INFO]: Injecting itemstacks
+[01:30:56] [Client thread/INFO]: Itemstack injection complete
+[01:30:56] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[01:30:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Kozalia
+[01:31:00] [Client thread/INFO]: SoundSystem shutting down...
+[01:31:01] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[01:31:01] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:31:01] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[01:31:01] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:31:01] [Thread-10/INFO]: OpenAL initialized.
+[01:31:01] [Sound Library Loader/INFO]: Sound engine started
+[01:31:08] [Client thread/INFO]: Max texture size: 16384
+[01:31:08] [Client thread/INFO]: Created: 512x512 textures-atlas
+[01:31:09] [Client thread/WARN]: Skipping bad option: lastServer:
+[01:31:10] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[01:31:12] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[01:31:12] [Server thread/INFO]: Generating keypair
+[01:31:12] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[01:31:13] [Server thread/INFO]: Applying holder lookups
+[01:31:13] [Server thread/INFO]: Holder lookups applied
+[01:31:13] [Server thread/INFO]: Loading dimension 0 (Nouveau monde) (net.minecraft.server.integrated.IntegratedServer@542fad6d)
+[01:31:13] [Server thread/INFO]: Loading dimension 1 (Nouveau monde) (net.minecraft.server.integrated.IntegratedServer@542fad6d)
+[01:31:13] [Server thread/INFO]: Loading dimension -1 (Nouveau monde) (net.minecraft.server.integrated.IntegratedServer@542fad6d)
+[01:31:13] [Server thread/INFO]: Preparing start region for level 0
+[01:31:14] [Server thread/INFO]: Preparing spawn area: 41%
+[01:31:14] [Server thread/ERROR]: Failed to create block entity kozalia:mineral_furnace
+java.lang.InstantiationException: fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace
+	at java.lang.Class.newInstance(Class.java:427) ~[?:1.8.0_251]
+	at net.minecraft.tileentity.TileEntity.create(TileEntity.java:121) [TileEntity.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadEntities(AnvilChunkLoader.java:515) [AnvilChunkLoader.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:96) [ChunkIOProvider.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94) [ChunkIOExecutor.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:122) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:93) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:139) [ChunkProviderServer.class:?]
+	at net.minecraft.server.MinecraftServer.initialWorldChunkLoad(MinecraftServer.java:337) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:107) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.startServer(IntegratedServer.java:124) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:497) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_251]
+Caused by: java.lang.NoSuchMethodException: fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082) ~[?:1.8.0_251]
+	at java.lang.Class.newInstance(Class.java:412) ~[?:1.8.0_251]
+	... 12 more
+[01:31:14] [Server thread/ERROR]: A TileEntity kozalia:mineral_furnace(fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace) has thrown an exception during loading, its state cannot be restored. Report this to the mod author
+java.lang.InstantiationException: fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace
+	at java.lang.Class.newInstance(Class.java:427) ~[?:1.8.0_251]
+	at net.minecraft.tileentity.TileEntity.create(TileEntity.java:121) [TileEntity.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadEntities(AnvilChunkLoader.java:515) [AnvilChunkLoader.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:96) [ChunkIOProvider.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94) [ChunkIOExecutor.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:122) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:93) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:139) [ChunkProviderServer.class:?]
+	at net.minecraft.server.MinecraftServer.initialWorldChunkLoad(MinecraftServer.java:337) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:107) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.startServer(IntegratedServer.java:124) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:497) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_251]
+Caused by: java.lang.NoSuchMethodException: fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082) ~[?:1.8.0_251]
+	at java.lang.Class.newInstance(Class.java:412) ~[?:1.8.0_251]
+	... 12 more
+[01:31:14] [Server thread/WARN]: Skipping BlockEntity with id kozalia:mineral_furnace
+[01:31:14] [Server thread/ERROR]: Failed to create block entity kozalia:mineral_furnace
+java.lang.InstantiationException: fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace
+	at java.lang.Class.newInstance(Class.java:427) ~[?:1.8.0_251]
+	at net.minecraft.tileentity.TileEntity.create(TileEntity.java:121) [TileEntity.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadEntities(AnvilChunkLoader.java:515) [AnvilChunkLoader.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:96) [ChunkIOProvider.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94) [ChunkIOExecutor.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:122) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:93) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:139) [ChunkProviderServer.class:?]
+	at net.minecraft.server.MinecraftServer.initialWorldChunkLoad(MinecraftServer.java:337) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:107) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.startServer(IntegratedServer.java:124) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:497) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_251]
+Caused by: java.lang.NoSuchMethodException: fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082) ~[?:1.8.0_251]
+	at java.lang.Class.newInstance(Class.java:412) ~[?:1.8.0_251]
+	... 12 more
+[01:31:14] [Server thread/ERROR]: A TileEntity kozalia:mineral_furnace(fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace) has thrown an exception during loading, its state cannot be restored. Report this to the mod author
+java.lang.InstantiationException: fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace
+	at java.lang.Class.newInstance(Class.java:427) ~[?:1.8.0_251]
+	at net.minecraft.tileentity.TileEntity.create(TileEntity.java:121) [TileEntity.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.loadEntities(AnvilChunkLoader.java:515) [AnvilChunkLoader.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:96) [ChunkIOProvider.class:?]
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94) [ChunkIOExecutor.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:122) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:93) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:139) [ChunkProviderServer.class:?]
+	at net.minecraft.server.MinecraftServer.initialWorldChunkLoad(MinecraftServer.java:337) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:107) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.startServer(IntegratedServer.java:124) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:497) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_251]
+Caused by: java.lang.NoSuchMethodException: fr.cel.kozalia.block.tileentity.TileEntityMineralFurnace.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082) ~[?:1.8.0_251]
+	at java.lang.Class.newInstance(Class.java:412) ~[?:1.8.0_251]
+	... 12 more
+[01:31:14] [Server thread/WARN]: Skipping BlockEntity with id kozalia:mineral_furnace
+[01:31:15] [Server thread/INFO]: Changing view distance to 8, from 10
+[01:31:16] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[01:31:16] [Netty Server IO #1/INFO]: Client protocol version 2
+[01:31:16] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : kozalia@0.1,FML@8.0.99.99,Forge@12.18.3.2511,mcp@9.19
+[01:31:16] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[01:31:16] [Server thread/INFO]: [Server thread] Server side modded connection established
+[01:31:16] [Server thread/INFO]: Cel___[local:E:175e9092] logged in with entity id 293 at (184.67611053884838, 90.0, 241.08254428518032)
+[01:31:16] [Server thread/INFO]: Cel___ a rejoint la partie
+[01:31:17] [Server thread/INFO]: Saving and pausing game...
+[01:31:17] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Overworld
+[01:31:17] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Nether
+[01:31:17] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/The End
